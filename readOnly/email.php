@@ -1,4 +1,6 @@
 <?php
+header( 'Location: /' ) ;
+
 $subjectPrefix = '[Contact via WDC Site]';
 $emailTo = 'kmdice@ksu.edu';
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -31,3 +33,5 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 }
 ?>
+
+Thanks for your message!  We'll get back to you soon.
