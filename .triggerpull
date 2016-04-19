@@ -1,2 +1,0 @@
-If this file is changed, a long-running node.js process on the server 
-will notice and initiate a pull from Github.
