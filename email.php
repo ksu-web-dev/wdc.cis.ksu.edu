@@ -15,7 +15,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $emailIsValid = filter_var($email, FILTER_VALIDATE_EMAIL);
     if($name && $email && $emailIsValid && $subject && $message){
         $subject = "$subjectPrefix $subject";
-        $body = "Nome: $name <br /> Email: $email <br /> Mensagem: $message";
+        $body = "Name: $name <br /> Email: $email <br /> Message: $message";
         $headers  = "MIME-Version: 1.1" . PHP_EOL;
         $headers .= "Content-type: text/html; charset=utf-8" . PHP_EOL;
         $headers .= "Content-Transfer-Encoding: 8bit" . PHP_EOL;
