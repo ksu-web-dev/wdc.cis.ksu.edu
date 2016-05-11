@@ -2,7 +2,7 @@
 header( 'Location: /' ) ;
 
 $subjectPrefix = '[Contact via WDC Site]';
-$emailTo = 'kmdice@ksu.edu';
+$emailTo = 'ksuwdc@ksu.edu';
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $name    = stripslashes(trim($_POST['name']));
     $email   = stripslashes(trim($_POST['email']));
